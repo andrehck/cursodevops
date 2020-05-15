@@ -2,7 +2,7 @@
 
 #Provider 
 provider "google" {
-  credentials = "${file("devopsgc.json")}" //arquivo da chave exportada do gcp, esta no mesmo diretorio que o main.tf
+  credentials = "${file("devopsgc.json")}" // arquivo da chave exportada do gcp, esta no mesmo diretorio que o main.tf
   project = "devops-274120"
   region  = "us-central1"
   zone    = "us-central1-a"
